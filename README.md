@@ -5,11 +5,14 @@ This project is a Python script that monitors CPU, memory, and disk usage. The p
 to keep track of their laptop's health. I used Python, JSON, and psutil library to build the monitor.
 
 
-
-
 ## Future Work
 
 In the future, I will automate alerts and visualization by using DevOps tools.
+
+## Documentation
+
+[Documentation](https://www.canva.com/design/DAG70KmTWJ4/iw6wBiNW7PLEdDSPtjL6mA/edit?utm_content=DAG70KmTWJ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Running Tests
 
 To run tests, run the following command
