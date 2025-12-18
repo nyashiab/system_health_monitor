@@ -2,12 +2,12 @@
 # Health System Monitor
 
 This project is a Python script that monitors CPU, memory, and disk usage. The project is intended for anyone who needs to troubleshoot their computer or
-to keep track of their laptop's health. I used Python, JSON, and psutil library to build the monitor.
+to keep track of their laptop's health. This script is also automated so that it could excute monthly. I used Python, JSON, the psutil library, and Github Actions to build the monitor.
 
 
 ## Future Work
 
-In the future, I will automate alerts and visualization by using DevOps tools.
+In the future, I will send email alerts and utlize visualization tools by using DevOps tools/concepts.
 
 ## Documentation
 
