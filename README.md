@@ -1,12 +1,25 @@
-Automated System Health Monitor
-Python script that monitors CPU/memory/disk usageProject Journal
-To begin this project I installed dependencies. I installed the process and system utilities library on VSCode.
-This is what I did in the VSCode terminal before coding my project...
-pip install psutil requests
-Next, I used my Python fundamentals and the libraries' documentation to create a Python file to be scripted.
-After completing my initial code, I tested in the terminal to make sure that the program works correctly.
-I typed this in to test the code:
-python3 system_monitor.py
-Here are my results...
-Note
-Current Metrics: {'timestamp': '2025-06-24 18:54:56.484067', 'cpu_usage': 19.8, 'memory_usage': 49.8, 'disk_usage': 19.3}
+
+# Health System Monitor
+
+This project is a Python script that monitors CPU, memory, and disk usage. The project is intended for anyone who needs to troubleshoot their computer or
+to keep track of their laptop's health. I used Python, JSON, and psutil library to build the monitor.
+
+
+
+
+## Future Work
+
+In the future, I will automate alerts and visualization by using DevOps tools.
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  python3 system_monitor.py
+```
+
+
+## Screenshots
+<img width="887" height="72" alt="Screenshot 2025-12-17 165203" src="https://github.com/user-attachments/assets/49f4366a-4b32-4c98-bd92-e8eef7cba9de" />
+
+<img width="1441" height="175" alt="Screenshot 2025-12-17 163336" src="https://github.com/user-attachments/assets/b027bbda-08a9-4849-9966-6d19405490f2" />
