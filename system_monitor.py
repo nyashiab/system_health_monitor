@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 import requests
 
+
 def get_system_metrics():
     return{
         "timestamp": str(datetime.now()),
@@ -21,10 +22,12 @@ def send_slack_alert(message):
     payload = {"text": message}
     requests.post(webhook_url, json=payload)
 
+
 if __name__ == "__main__":
     metrics = get_system_metrics()
     print(f"Current Metrics: {metrics}")
     log_metrics(metrics)
+
 
     # Alert message sent to Slack if CPU > 90%
     if metrics["cpu_usage"] > 90:
