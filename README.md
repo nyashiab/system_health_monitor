@@ -4,11 +4,6 @@
 This project is a Python script that monitors CPU, memory, and disk usage. The project is intended for anyone who needs to troubleshoot their computer or
 to keep track of their laptop's health. This script is also automated so that it could execute monthly and when the CPU usage exceeds 90%, the system will send an alert to Slack. I used Python, JSON, the psutil library, Github Actions, and Slack API to build the monitor.
 
-
-## Future Work
-
-In the future, I will utlize visualization tools by using DevOps tools/concepts.
-
 ## Documentation
 
 [Project Documentation](https://www.canva.com/design/DAG70KmTWJ4/DZcpkfHBas9tNdPW8G_u6w/view?utm_content=DAG70KmTWJ4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf082c4f1f4)
