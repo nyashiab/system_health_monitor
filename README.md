@@ -2,7 +2,7 @@
 # Automated Health System Monitor
 
 This project is a Python script that monitors CPU, memory, and disk usage. The project is intended for anyone who needs to troubleshoot their computer or
-to keep track of their laptop's health. This script is also automated so that it could execute monthly and when the CPU usage exceeds 90%, the system will send an alert to Slack. I used Python, JSON, the psutil library, Github Actions, and Slack API to build the monitor.
+to keep track of their laptop's health. This script is also automated so that it can execute monthly, and when the CPU usage exceeds 90%, the system will send an alert to Slack. I used Python, JSON, the psutil library, GitHub Actions, and Slack API to build the monitor.
 
 ## Documentation
 
